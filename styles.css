@@ -1,0 +1,97 @@
+/* CodeEditor.css */
+
+/* Center the code editor */
+.code-editor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+  }
+  
+  /* Block */
+  .code-editor {
+    border: 1px solid #555;
+    padding: 10px;
+    max-width: 80%;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Element */
+  .code-editor__header {
+    display: flex;
+    justify-content: space between;
+    margin-bottom: 10px;
+    background-color: #555;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  /* Element */
+  .code-editor__button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: medium;
+  }
+  
+  .code-editor__button:hover {
+    background-color: #074c95;
+  }
+  
+  /* Element */
+  .code-editor__language-selector {
+    /* background-color: #007bff;
+    color: #fff; */
+    border: none;
+    padding: auto;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 3px;
+    margin-right: 6px;
+    margin-left: 37%;
+  }
+  
+  .code-editor__language-selector:hover {
+    /* background-color: #0056b3; */
+  }
+  
+  /* Element */
+  .code-editor__content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 400px;
+    min-width: 600px;
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    line-height: 1.5;
+  }
+  
+  .code-editor__content:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  h1{
+    text-align: center;
+  }
+  
+  /* Modifier */
+  .code-editor__content--locked {
+    background-color: #f0f0f0;
+  }
+  
+
+
+  

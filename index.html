@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Edvanta Code Editor (Assessment)</h1>
+    <div class="code-editor-container">
+        <div class="code-editor">
+            <div class="code-editor__header">
+                <button class="code-editor__button" id="indentButton">
+                    Indent
+                </button>
+                <button class="code-editor__button" id="copyButton">
+                    Copy
+                </button>
+                <button class="code-editor__button" id="lockButton">
+                    Lock
+                </button>
+                <select class="code-editor__language-selector" id="languageSelector">
+                    <option value="">Select Language</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                </select>
+            </div>
+            <div class="code-editor__content" id="codeEditor" contentEditable="true">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
